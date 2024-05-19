@@ -1,0 +1,70 @@
+.profile{
+    width: 100%;
+    height: 370px;
+    display: flex;    
+    justify-content: center;    
+}
+.profile .container{
+    width: 60%;
+    z-index: -3;
+    padding-left: 30px;
+}
+.profile .container .pro{
+    width: clamp(50%,100%,100%);
+    padding: 5% 30px;
+    height: 250px;
+    
+}
+.profile .container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile .container ul li{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.profile .container h1{
+    color: #ffd942;
+}
+.profile .container h2{
+    color:#6a5604;
+    font-weight: bold;
+    height: 40px;
+    text-decoration: underline;
+}
+.profile-img{
+    margin-top: -150px;
+    display: grid;
+    place-items: center;
+    background-image: url("../../../public/img/men.png");
+    background-size: 100% 80%;
+    box-shadow: 0px 2px 26px 4px rgba(251,161,40,0.42);
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+@media (max-width:469px) {
+    .profile{
+    width: 100%;
+    height: 500px;
+    display: flex;    
+    justify-content: center;    
+    
+    }
+    .profile .container{
+        width: 100%;
+    }   
+    .profile .container .pro{
+        
+        
+    }
+    .profile-img{
+        display: none;
+    }
+}

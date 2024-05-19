@@ -1,0 +1,118 @@
+.home{
+    width: 100%;
+    
+    
+}
+.home .cli-btn{
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    background:linear-gradient(180deg,#fdc50f 25.71%,#fb982f 99.36%) ;
+    box-shadow: 0px 29px 26px 4px rgba(251,161,40,0.42);
+    z-index: 1;
+    user-select: none;
+}
+@media (max-width:469px) {
+    .home{
+        width: 100%;
+        
+    }
+    .home-leftSide{    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    .mobile-leftside{        
+        width: 100%;
+        display: flex;
+    }
+}
+.home{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+
+.home-container{
+    width: 100%;
+    display: flex;
+}
+.home-leftSide{    
+    display: flex;
+    flex-direction: column;
+    width: 60%;    
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.home .name{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-size: clamp(1rem,0.3233rem + 3.4323vw ,2rem);
+}
+.home .title{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    gap: 10px;
+    font-size: clamp(1rem,0.3233rem + 3.4323vw ,2rem);
+}
+.home .content{
+    font-size: 20px;
+    font-size: clamp(1rem,0.3233rem + 3.4323vw ,1.6rem);
+}
+.home-leftSide h1{
+    font-size: 40px;
+    word-spacing: 10px;
+    letter-spacing: 6px;
+    
+}
+.home-leftSide .name{
+    color: #fb982f;
+}
+.body-intro{
+    display: flex;
+}
+
+.home .home-leftSide .skills{
+    width: ch;
+    font-size: 40px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fdc50f;
+    
+    border-right: 5px solid #fb982f;
+    font-size: clamp(1.5rem,0.3233rem + 3.4323vw ,3rem);
+    animation: types 4s steps(20) infinite;
+}
+
+@keyframes types {
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 26ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+@media (max-width:469px) {
+    .home{
+        display: flex;
+    }
+    
+}
